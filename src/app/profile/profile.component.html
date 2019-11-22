@@ -1,0 +1,68 @@
+
+<!-- <div class="container-fluid">
+<div class="row">
+        <div class="col-lg-3 bg-gradient-success">
+            
+            <br><br><br><br><br><h2>Projects</h2><br><br><br><br><br>
+            <app-projects-list></app-projects-list>
+            <button type="button" class="btn btn-primary" routerLink='/project'>Create Project</button>
+        </div>
+        
+        <div class="col-lg-6 bg-gradient-success">
+            <app-aboutme></app-aboutme>
+        </div>
+        
+        <div class="col-lg-3 bg-gradient-success">
+            <br><br><br><br><br><h2>Request</h2><br><br><br><br><br>
+            <app-requests-list></app-requests-list>
+        </div>
+</div>
+</div> -->
+
+    <!-- Page content -->
+    <div class="container-fluid mt--7 bg-gradient-success" style="padding-top: 15%;">
+        <div class="row">
+          <div class="col-xl-3 order-xl-1 mb-5 mb-xl-0">
+            <div class="card bg-secondary card-profile shadow">
+                <div class="card-header bg-white border-0">
+                    <div class="row align-items-center">
+                      <div class="col-6">
+                        <h3 class="mb-0">My Projects</h3>
+                      </div>
+                      <div class="col-6 text-right">
+                        <!-- <a href="#!" class="btn btn-sm btn-primary">Settings</a> -->
+                        <button type="button" class="btn btn-sm btn-primary" routerLink='/project'>Create Project</button>
+                      </div>
+                    </div>
+              </div>
+              <div class="card-body pt-0 pt-md-4">
+                <div class="text-center">
+                  <h3>
+                    <app-projects-list></app-projects-list>  
+                  </h3>
+                </div>
+              </div>
+          </div>
+        </div>
+          <div class="col-xl-6 order-xl-2"><app-aboutme></app-aboutme></div>
+          <div class="col-xl-3 order-xl-3">
+              <div class="card bg-secondary card-profile shadow">
+                  <div class="card-header bg-white border-0">
+                      <div class="row align-items-center">
+                        <div class="col-12">
+                          <h3 class="mb-0">Project Requests</h3>
+                        </div>
+                      </div>
+                </div>
+                <div class="card-body pt-0 pt-md-4">
+                  <div class="text-center">
+                    <h3>
+                        <app-requests-list></app-requests-list>  
+                    </h3>
+                  </div>
+                </div>
+            </div>
+          </div>
+
+          
+        </div>
